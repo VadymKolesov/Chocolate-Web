@@ -1,0 +1,268 @@
+:root {
+  --black: #111111;
+  --violet: #1e1823;
+  --orange: #fd9222;
+  --light-orange: #fcf1e0;
+  --cloud: #fafafa;
+  --white: #ffffff;
+}
+
+body {
+  color: var(--black);
+  background-color: var(--cloud);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--black);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.nav-font {
+  color: var(--black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.nav-font:focus,
+.nav-font:hover {
+  color: var(--orange);
+}
+
+.section-back-img {
+  background-image: url(/images/chocolade-cover.jpg);
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.section-info {
+  background-color: var(--violet);
+  color: var(--white);
+}
+
+.title-main {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.title-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title-info {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.title-made {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.title-span {
+  color: var(--orange);
+}
+
+.title-card {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.title-footer {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+
+.button-buy {
+  color: var(--white);
+  background-color: var(--orange);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.button-buy:hover {
+  color: var(--orange);
+  background-color: var(--light-orange);
+}
+
+.button-review {
+  background: none;
+  border: 1px solid var(--orange);
+  border-radius: 100px;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-review:hover {
+  background-color: var(--orange);
+  color: white;
+}
+
+.how-made-link {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  border: 1px solid var(--white);
+  border-radius: 100px;
+}
+
+.how-made-link:focus,
+.how-made-link:hover {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.scroll {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+}
+
+.scroll:focus,
+.scroll:hover {
+  color: var(--orange);
+}
+
+.icons-info {
+  border: 1px solid var(--white);
+  border-radius: 100px;
+}
+
+.paragraph-info {
+  font-size: 14px;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+}
+
+.paragraph-made {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.paragraph-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.paragraph {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.card-product {
+  border: 1px solid var(--orange);
+  border-radius: 15px;
+}
+
+.card-product-color-orange {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.card-product-color-white {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.card-product-color-violet {
+  background-color: var(--violet);
+  color: white;
+}
+
+.lover-card {
+  background-color: white;
+  border: 1px solid rgba(11, 11, 11, 10%);
+  border-radius: 15px;
+}
+
+.lover-img {
+  border-radius: 100px;
+}
+
+.lover-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+
+.lover-opinion {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  opacity: 70%;
+}
+
+.section-footer-main {
+  background-color: var(--violet);
+  color: var(--white);
+}
+
+.address-info {
+  color: var(--white);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.address-info:hover {
+  color: var(--orange);
+}
+
+.section-footer-main .nav-font {
+  color: var(--white);
+}
+
+.section-footer-main .nav-font:hover {
+  color: var(--orange);
+}
